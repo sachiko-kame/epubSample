@@ -15,6 +15,8 @@
 		849F68EE21CA72C000EA9986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849F68EC21CA72C000EA9986 /* LaunchScreen.storyboard */; };
 		849F68F921CA72C000EA9986 /* folioSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F68F821CA72C000EA9986 /* folioSampleTests.swift */; };
 		849F690421CA72C000EA9986 /* folioSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F690321CA72C000EA9986 /* folioSampleUITests.swift */; };
+		849F691321CA7EB800EA9986 /* FlowingExample3-1.epub in Resources */ = {isa = PBXBuildFile; fileRef = 849F691121CA774C00EA9986 /* FlowingExample3-1.epub */; };
+		849F691421CA7EBC00EA9986 /* sample.epub in Resources */ = {isa = PBXBuildFile; fileRef = 849F691221CA79B100EA9986 /* sample.epub */; };
 		9B2C67D809312981F9CA0641 /* Pods_folioSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A9A4A301369AACD439E6DB /* Pods_folioSampleUITests.framework */; };
 		C0E0235AE56B0B54E911FE0F /* Pods_folioSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB18B26376CA21614E62F9E /* Pods_folioSampleTests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +58,8 @@
 		849F68FF21CA72C000EA9986 /* folioSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = folioSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849F690321CA72C000EA9986 /* folioSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = folioSampleUITests.swift; sourceTree = "<group>"; };
 		849F690521CA72C000EA9986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849F691121CA774C00EA9986 /* FlowingExample3-1.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FlowingExample3-1.epub"; sourceTree = "<group>"; };
+		849F691221CA79B100EA9986 /* sample.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.epub; sourceTree = "<group>"; };
 		946ABF96CC4F165E251F3509 /* Pods-folioSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-folioSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-folioSampleUITests/Pods-folioSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B67271BF10453F60F5A92906 /* Pods-folioSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-folioSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-folioSampleTests/Pods-folioSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D084C9DF912DD74B4A870E54 /* Pods-folioSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-folioSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-folioSampleUITests/Pods-folioSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 			children = (
 				849F68E321CA72BE00EA9986 /* AppDelegate.swift */,
 				849F68E521CA72BE00EA9986 /* ViewController.swift */,
+				849F691221CA79B100EA9986 /* sample.epub */,
+				849F691121CA774C00EA9986 /* FlowingExample3-1.epub */,
 				849F68E721CA72BE00EA9986 /* Main.storyboard */,
 				849F68EA21CA72C000EA9986 /* Assets.xcassets */,
 				849F68EC21CA72C000EA9986 /* LaunchScreen.storyboard */,
@@ -273,6 +279,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849F691421CA7EBC00EA9986 /* sample.epub in Resources */,
+				849F691321CA7EB800EA9986 /* FlowingExample3-1.epub in Resources */,
 				849F68EE21CA72C000EA9986 /* LaunchScreen.storyboard in Resources */,
 				849F68EB21CA72C000EA9986 /* Assets.xcassets in Resources */,
 				849F68E921CA72BE00EA9986 /* Main.storyboard in Resources */,
