@@ -8,7 +8,7 @@
 
 import UIKit
 import FolioReaderKit
-
+//https://www.buildinsider.net/hub/ebooksfree/2016
 class ViewController: UIViewController {
     var mainpath:String = ""
     
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         if let url = musicUrl {
             let epubData = NSData(contentsOf: url as URL)
             
-            let dataName = "FlowingExample3.epub"
+            let dataName = "progit-ja.1016.epub"
             
             let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
             
